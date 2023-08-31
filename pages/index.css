@@ -53,7 +53,7 @@
   display: flex;
   flex-direction: column;
   background: url(../images/background_header.svg);
-  background: cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -62,7 +62,7 @@
   margin-top: 124px;
   position: absolute;
   height: 568px;
-  width: 646;
+  width: 646px;
   right: 5px;
 }
 
