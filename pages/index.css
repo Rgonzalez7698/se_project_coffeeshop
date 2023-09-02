@@ -21,6 +21,7 @@
 .nav__link{
   color: black;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
 
 }
 
@@ -35,6 +36,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+}
+
+.nav__link:hover{
+  color: #2f80ed;
 }
 
 .nav__logo{
@@ -160,3 +165,333 @@
   color: #fff;
 }
 
+.reservation__title{
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding: 100px;
+
+}
+
+.reservation{
+  background: url(../images/background_reservation.svg);
+  background-color: #D9E7FF;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 0;
+
+}
+
+.reservation__form{
+  margin: 0 auto;
+  max-width: 385px;
+}
+
+.form__fieldset{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.form__input{
+  display: block;
+  width: 100%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  height: 60px;
+}
+
+label.form__label.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0 0 100px;
+
+}
+
+.form__button{
+  width: 100%;
+  margin-bottom: 32px;
+  padding: 0;
+  height: 60px;
+  margin-top: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  }
+
+.form__button:hover{
+    border-radius: 4px;
+    opacity: 0.7;
+  }
+
+.form__label{
+  margin-bottom: 32px;
+  display: flow;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  bottom: 8px;
+  border-radius: 4px;
+  }
+
+.form__checkbox{
+    border-radius: 2px;
+    background-image: url(../images/check.svg);
+    background-color: #2F80ED;
+  }
+
+.form__input::placeholder{
+    padding: 8px;
+  }
+
+.form__form{
+    padding: 0;
+    border: none;
+  }
+
+.menu{
+    background: url(../images/background_menu.svg);
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0;
+    padding: 0 0 100px;
+    z-index: 1;
+  }
+
+.menu__title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 780px;
+  margin: 100px auto 24px;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  }
+
+.menu__subtitle{
+  max-width: 780px;
+  bottom: 100px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto 0;
+  text-align: center;
+}
+
+.menu__cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  bottom: 100px;
+  top: 100px;
+}
+
+.card{
+  width: 540px;
+  bottom: 100px;
+}
+
+.card__list-divider{
+  border-bottom: 1px solid #000000;
+  display: flex;
+  flex-grow: 1;
+
+  }
+
+.card__title{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  bottom: 32px;
+}
+
+.card__list-item{
+  display: flex;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+
+}
+
+.about{
+  display: flex;
+  background-color: #0a2750;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.about__title{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 2;
+  padding: 100px 0 0 80px;
+  color: #fff;
+  margin: 0 0 auto;
+  max-width: 251px;
+}
+
+.about__content{
+  padding: 119px 80px 173px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+  gap: 20px;
+}
+
+.about__paragraph{
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+
+.footer{
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+}
+
+.footer__content{
+  display: flex;
+  flex-direction: row;
+  padding: 60px 100px 0 80px;
+  justify-content: space-between;
+}
+
+.footer__logo{
+  color: #fff;
+  width: 105px;
+  height: 39px;
+}
+
+.footer__social-heading{
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  gap: 20px;
+}
+
+.footer__list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0;
+  color: #fff;
+  gap: 16px;
+}
+
+.footer__list-item{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  
+}
+
+.footer__social-icon{
+  height: 16px;
+  width: 16px;
+  gap: 10px;
+}
+
+.footer__social-link{
+  color: initial;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer__social-link:hover{
+  color: #c1c1c1;
+}
+
+.footer__copyright{
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
