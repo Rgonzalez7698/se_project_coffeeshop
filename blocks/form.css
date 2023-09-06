@@ -46,6 +46,7 @@ label.form__label.form__label_type_checkbox {
   background-color: #2f80ed;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  color: #fff;
   }
 
 .form__button:hover{
