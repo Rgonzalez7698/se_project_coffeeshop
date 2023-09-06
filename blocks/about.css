@@ -1,0 +1,65 @@
+.about{
+  display: flex;
+  background-color: #0a2750;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.about__title{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 2;
+  padding: 100px 0 0 80px;
+  color: #fff;
+  margin: 0 0 auto;
+  max-width: 251px;
+}
+
+.about__content{
+  padding: 119px 80px 173px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+  gap: 20px;
+}
+
+.about__paragraph{
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
