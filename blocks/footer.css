@@ -54,7 +54,6 @@
 }
 
 .footer__social-link{
-  color: initial;
   transition: color 0.3s ease-in-out;
   gap: 10px;
 }
