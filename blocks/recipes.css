@@ -1,10 +1,6 @@
 .recipes {
   padding: 100px 80px 215px;
   font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
   background: url(../images/background_recipes.svg);
   background-color: #0a2750;
   background-size: cover;
@@ -23,6 +19,10 @@
 }
 
 .recipes__title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
   padding-right: 80px;
   max-width: 580px;
   color: #fff;
@@ -52,4 +52,5 @@
 .recipes__iframe{
   width: 483px;
   height: 273px;
+  border: 0;
 }

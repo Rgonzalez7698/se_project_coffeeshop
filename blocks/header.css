@@ -1,6 +1,6 @@
 .header{
   padding: 30px 80px 40px;
-  min-width: 720px;
+  min-height: 720px;
   max-height: 800px;
   height: 100vh;
   display: flex;
@@ -9,11 +9,12 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  box-sizing: border-box;
 
 }
 
 .header__image{
-  margin-top: 124px;
+  top: 124px;
   position: absolute;
   height: 568px;
   width: 646px;
@@ -70,7 +71,7 @@
   color: #838383
 }
 
-.header__paragraphs{
+.header__paragraph{
   align-self:flex-end;
   margin: 0;
 }

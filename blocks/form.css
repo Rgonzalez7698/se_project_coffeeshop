@@ -19,7 +19,7 @@
   height: 60px;
 }
 
-label.form__label.form__label_type_checkbox {
+.form__label.form__label_type_checkbox {
   display: flex;
   justify-content: center;
   font-family: "Inter", Arial, sans-serif;
@@ -28,7 +28,6 @@ label.form__label.form__label_type_checkbox {
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  padding: 0 0 100px;
 
 }
 
@@ -76,7 +75,7 @@ label.form__label.form__label_type_checkbox {
     padding: 8px;
   }
 
-.form__form{
+.form__fieldset{
     padding: 0;
     border: none;
   }

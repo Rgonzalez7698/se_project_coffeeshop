@@ -24,7 +24,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
-  gap: 20px;
 }
 
 .footer__list{
@@ -49,12 +48,12 @@
 .footer__social-icon{
   height: 16px;
   width: 16px;
-  gap: 10px;
 }
 
 .footer__social-link{
   color: initial;
   transition: color 0.3s ease-in-out;
+  gap: 10px;
 }
 
 .footer__social-link:hover{
