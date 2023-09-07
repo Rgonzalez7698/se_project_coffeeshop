@@ -29,6 +29,10 @@
   margin-bottom: 16px;
 }
 
+.card__list-item:last-child{
+  margin: 0;
+}
+
 .card__list{
   padding: 0;
   margin: 0;

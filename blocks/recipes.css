@@ -23,9 +23,10 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  padding-right: 80px;
   max-width: 580px;
   color: #fff;
+  margin: 0;
+
 }
 
 .recipes__subtitle{
@@ -36,6 +37,9 @@
   line-height: 30px;
   color: #fff;
   max-width: 438px;
+  margin: 0;
+  padding-top: 24px;
+  padding-bottom: 80px;
 }
 
 .recipes__video-caption {
@@ -47,6 +51,8 @@
   font-size: 20px;
   line-height: 30px;
   color: #fff;
+  margin: 0;
+  padding-top: 24px;
 }
 
 .recipes__iframe{

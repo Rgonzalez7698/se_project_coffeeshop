@@ -24,6 +24,8 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .footer__list{
@@ -33,6 +35,7 @@
   padding: 0;
   color: #fff;
   gap: 16px;
+  margin: 0;
 }
 
 .footer__list-item{
@@ -69,7 +72,5 @@
   line-height: 20px;
   color: #fff;
   margin: 0;
-  padding-top: 100px;
-  padding-bottom: 60px;
-  padding-left: 80px;
+  padding: 108px 0 60px 80px;
 }
