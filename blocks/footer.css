@@ -18,7 +18,7 @@
 .footer__social-heading{
   display: flex;
   justify-content: center;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -37,7 +37,7 @@
 }
 
 .footer__list-item{
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -63,7 +63,7 @@
 
 .footer__copyright{
   display: flex;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

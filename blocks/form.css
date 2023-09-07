@@ -10,7 +10,7 @@
   padding: 0;
   box-sizing: border-box;
   margin-top: 8px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -22,7 +22,7 @@
 label.form__label.form__label_type_checkbox {
   display: flex;
   justify-content: center;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -38,7 +38,7 @@ label.form__label.form__label_type_checkbox {
   padding: 0;
   height: 60px;
   margin-top: 32px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -57,7 +57,7 @@ label.form__label.form__label_type_checkbox {
 .form__label{
   margin-bottom: 32px;
   display: flow;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

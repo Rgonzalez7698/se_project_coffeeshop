@@ -10,7 +10,7 @@
 }
 
 .about__title{
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -31,7 +31,7 @@
 }
 
 .about__paragraph{
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -49,6 +49,17 @@
   left: -129px;
   z-index: 0;
   animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+.about__circle_animation{
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 0;
 }
 
 @keyframes pulsate {
