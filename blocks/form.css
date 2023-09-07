@@ -29,9 +29,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  gap: 12px
-  ;
-
+  gap: 12px;
 }
 
 .form__button{
@@ -50,7 +48,6 @@
   color: #fff;
   border: 0;
   border-radius: 4px;
-
   }
 
 .form__button:hover{
