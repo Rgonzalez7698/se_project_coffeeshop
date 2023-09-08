@@ -19,6 +19,7 @@
   border-radius: 4px;
   margin-bottom: 32px;
   border-width: 1px;
+  color: #838383;
 }
 
 .form__button{
@@ -69,7 +70,7 @@
     border: none;
   }
 
-  [for="checkbox"], [type="radio"] {
+  .form__label_type_checkbox, [for="checkbox"], [type="radio"] {
     box-sizing: border-box;
     padding: 0;
     display: flex;
