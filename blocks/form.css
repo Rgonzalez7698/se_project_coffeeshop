@@ -20,7 +20,7 @@
   margin-bottom: 32px;
   border-width: 1px;
   border-color: #838383;
-  color: #838383;
+  color: #000000;
 }
 
 .form__button{
@@ -64,6 +64,7 @@
 
 .form__input::placeholder{
     padding: 8px;
+    color: #838383;
   }
 
 .form__fieldset{
@@ -71,7 +72,7 @@
     border: none;
   }
 
-  .form__label_type_checkbox, [for="checkbox"] {
+  .form__label_type_checkbox {
     box-sizing: border-box;
     padding: 0;
     display: flex;
