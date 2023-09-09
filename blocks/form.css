@@ -19,6 +19,7 @@
   border-radius: 4px;
   margin-bottom: 32px;
   border-width: 1px;
+  border-color: #838383;
   color: #838383;
 }
 
@@ -70,7 +71,7 @@
     border: none;
   }
 
-  .form__label_type_checkbox, [for="checkbox"], [type="radio"] {
+  .form__label_type_checkbox, [for="checkbox"] {
     box-sizing: border-box;
     padding: 0;
     display: flex;
